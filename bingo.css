@@ -1,0 +1,157 @@
+.grid-container {
+    /* flex: 10%; */
+    display: grid;
+    gap: 40px;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+    background-color: transparent;
+    padding: 10px;
+}
+
+
+.grid-contain {
+    /* flex: 10%; */
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto ;
+    background-color: transparent
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 5%;
+    font-size: 30px;
+    text-align: lef;
+    width: 80px;
+}
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i');
+
+
+#output {
+    width: 100%;
+    
+}
+
+body {
+    background-image: url(./pexels-margaret-neuhaus-26649387-6802741.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 120%;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+a {
+    text-decoration: none
+}
+
+.header {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    height: 50vw;
+    min-height: 400px;
+    max-height: 550px;
+    min-width: 300px;
+    color: #eee;
+}
+
+.header:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.12) 40%, rgba(27, 32, 48, 1) 100%);
+}
+
+.header:before {
+    content: "";
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    /* scale(1.0, 1.0); */
+    transform: translateZ(0);
+    background: #1B2030 url(https://as1.ftcdn.net/v2/jpg/03/21/98/48/1000_F_321984844_iLKPMWdOIIVBAACtnjB2fG3GqVrEn4yM.jpg) 100% 0100% no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    animation: grow 360s linear 10ms infinite;
+    transition: all 0.4s ease-in-out;
+    z-index: -2
+}
+
+.header a {
+    color: #eee
+}
+
+
+
+
+
+
+
+.sides,
+.info {
+    flex: 0 0 auto;
+    width: 50%
+}
+
+.cute{
+height: 1000px;
+width: 1200px;
+margin-left: 20%;
+margin-top: 0%;
+}
+
+
+#input-container{
+    width: 30%;
+    height: 100%;
+}
+
+.allforone{
+    gap: 60px;
+    display:flex;
+}
+.cute2 {
+    padding-left: 25px;
+    width: 500px;
+    height: 150px;
+    margin-left: 33%;
+    
+}
+input{
+    font-size: 100%;
+    
+    height: auto;
+    width:auto
+}
+
+.allall{
+    display: inline-flex;
+
+}
+
+
+
+
+
+
+
+
+
+
+
